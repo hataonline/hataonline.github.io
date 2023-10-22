@@ -54,8 +54,8 @@ body {
 }
 .col-md-7 {
 	flex: 0 0 auto;
-	width: 55%;
-	margin-left: 5.5em;
+	width: 50%;
+	margin-left: .5em;
 	margin-top: -5.5em;
 }
 /* rtl:end:ignore */
