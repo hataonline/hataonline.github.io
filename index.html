@@ -123,8 +123,9 @@
 	  <a class="navbar-brand" href="https://discord.gg/stWJRWygut">Discord</a>
 	  <a class="navbar-brand" href="https://pastebin.com/rW3Kev5T">Tech Info</a>
 	  <a class="navbar-brand" href="https://drive.google.com/file/d/1a3bPAfRWDj5BMgndeIWOiUnN2sE_dT08/view?usp=drive_link">Download password=rage</a>
-	  <a class="navbar-brand" href="http://45.32.88.39/fluxcp"><span class="glyphicon glyphicon-log-in"></span> FluxCP</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	  <a class="navbar-brand" href="http://45.32.88.39/fluxcp">FluxCP</a>
+	  <a class="navbar-brand" href="http://45.32.88.39/fluxcp/?module=account&action=create">Register</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -193,7 +194,7 @@
 		  <div class="col-lg-4">
 			<i class="fas fa-cat fa-10x"></i>
 			<h2 class="fw-normal">Quality of Life</h2>
-			<p>Classic Ragnarok, but with helpful features including linked kafras, 70% weight limit, helpful @ commands, resets, fun events, downported dungeons, and much more!</p>
+			<p>Classic Ragnarok, but with helpful features including linked kafras, 70% weight limit, helpful @ commands, resets, fun events, pvp ranking, downported dungeons, and much more!</p>
 			<!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
 		  </div><!-- /.col-lg-4 -->
 		  <div class="col-lg-4">
@@ -311,11 +312,18 @@
 					<ul>
 					  <li>Maces are slightly faster</li>
 					  <li>Triple attack can be freely casted with a slight after cast delay and can be chained into a combo</li>
-					  <li>Triple attack proc rate is increased by 10% with knuckles, 5% with 1h mace, and 1% per ironhand level</li>
-					  <li>Combo finisher has a slightly improved skill rate</li>
+					  <li>Triple attack proc rate is increased by 10% with knuckles/fists, +5% without a shield, 5% with 1h mace, and 1% per ironhand level</li>
+					  <li>Absorb Spirits proc chance increases by 10% per unequipped hand up to 40%, now has a cooldown and less cast time</li>
+					  <li>Combo finisher has a slightly improved skill rate, higher with knuckles, ignores flee</li>
 					  <li>Steel body has slightly less aspd penalty</li>
 					  <li>Asura has a 8 second cooldown</li>
 					  <li>Iron fist mastery gives higher damage and hit rate based on skill and base level for barefist and knuckles</li>    
+					</ul>
+				</li>
+				<li>Champion
+					<ul>
+						<li>Chain Crush now ignores flee and has a ratio bonus of 15% with maces and 10% otherwise</li>
+						<li>Tiger fist now ignores flee and has a ratio bonus of 25% with knuckles and 15% otherwise</li>
 					</ul>
 				</li>
 			</ul>
@@ -413,7 +421,7 @@
 					<ul>
 					  <li>Create deadly poison is based on base level and job level + luk up to 99</li>
 					  <li>Enchant deadly poison has less after cast delay</li>
-					  <li>Soul Destroyer is now affected by advanced katar mastery, has less after cast delay, and less cast time</li>
+					  <li>Soul Destroyer is now affected by advanced katar mastery, has less after cast delay, range of 9 cells, and less cast time</li>
 					</ul>
 				</li>
 			</ul>
@@ -567,7 +575,7 @@
 				<li>Dust has a slight range increase and damage increase</li>
 				<li>Full Blast has reduced SP cost</li>
 				<li>Spread attack has greater splash range at higher levels and costs less sp</li>
-				<li>Rebellion guns and ammo is now available at gunslinger vendor</li>
+				<li>Rebellion guns and ammo is now available at gunslinger vendor west of Protera fountain</li>
 				<li>AP Ammo, Sanctified Bullet - lvl 90, Blazing/Freezing/Electric/Stone Ammo - lvl 70</li>
 				<li>Gatling attack speed increased near fist attack speed</li>
 			</ul>
@@ -592,6 +600,7 @@
 				<li>Ninja mastery gives 1% mdef pierce per level up to 5%</li>
 				<li>Throwing practice gives 1% def pierce per level up to 5%</li>
 				<li>Killing strike HP reduction scales up to 10% remaining at lvl 10</li>
+				<li>Ninja can now dual weld knives</li>
 				<li>Ninja can now use some one hand swords (attack speed adjusted to be slower than knife):<ul>
 					<li>Tsurugi</li>
 					<li>Haedonggum</li>
@@ -644,7 +653,7 @@
 				<li>Alchemist link max axe mastery does not miss</li>
 				<li>TKM link while spurt is active increase hp/sp regen by 35%</li>
 				<li>Passive Link given to Soul Linker:<ul>
-					<li>Hunter link passively increases SL maximum range for ES skills</li>
+					<li>Hunter link passively increases SL maximum melee range</li>
 					<li>Bard/Dancer link gives SL -10% sp cost</li>
 					<li>TKM link gives +10 crit</li>
 					<li>Blacksmith link gives SL +25 hit</li>
@@ -666,6 +675,7 @@
 			<h2 class="featurette-heading fw-normal lh-1">Super Novice Changes.</h2>
 			<ul>
 				<li>Any changes above for first jobs are also applied to super novice, plan accordingly</li>
+				<li>SL death reset chance increased for super novice</li>
 			</ul>
 			</div>
 		  <div class="col-md-5">
