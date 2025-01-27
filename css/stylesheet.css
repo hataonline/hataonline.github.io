@@ -12,7 +12,6 @@ a {
 	border-right: 2px solid black;
 	box-shadow: 5px 4px 2px #781352;
 	border-radius: 8px;
-	text-decoration-thickness: 3px;
 }
 
 a:hover {
@@ -26,7 +25,7 @@ body {
 	background-attachment: fixed;
 	font-family: "ﾃｯﾂｼﾂｭﾃｯﾂｼﾂｳ ﾃｯﾂｼﾂｰﾃ｣窶堋ｴﾃ｣窶堋ｷﾃ｣ﾆ槌津｣窶堋ｯ", "MS PGothic", "Mona", "IPA ﾃ｣ﾆ陳｢ﾃ｣ﾆ椎 ﾃ｣ﾆ陳ｼ Pﾃ｣窶堋ｴﾃ｣窶堋ｷﾃ｣ﾆ槌津｣窶堋ｯ", "IPAMonaPGothic", "Monapo", "sans-serif"!important;
 	background-size: 100% 100%;
-	text-shadow: 1px 2px black;
+	text-shadow: 1px 1px 2px black;
 	text-align: center;
 	font-weight: bold;
 }
