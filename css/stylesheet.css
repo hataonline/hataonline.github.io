@@ -6,7 +6,6 @@ a {
 	margin-top: 3px;
 	display: block;
 	line-height: 25px;
-	opacity: .0;
 	transition-duration: 0.5s;
 	background-color: #efffff;
 	border-bottom: 2px solid black;
