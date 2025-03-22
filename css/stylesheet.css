@@ -1,7 +1,7 @@
 a {
 	text-decoration: none;
 	color: #8199FF;
-	font-size: 18px;
+	font-size: 1em;
 	text-align: center;
 	margin-top: 3px;
 	display: block;
@@ -23,6 +23,8 @@ a:hover {
 body {
 	background-image: url('https://hataonline.github.io/mascots/background.jpg');
 	background-attachment: fixed;
+	background-size: cover;
+  	background-position: center; 
 	font-family: "ﾃｯﾂｼﾂｭﾃｯﾂｼﾂｳ ﾃｯﾂｼﾂｰﾃ｣窶堋ｴﾃ｣窶堋ｷﾃ｣ﾆ槌津｣窶堋ｯ", "MS PGothic", "Mona", "IPA ﾃ｣ﾆ陳｢ﾃ｣ﾆ椎 ﾃ｣ﾆ陳ｼ Pﾃ｣窶堋ｴﾃ｣窶堋ｷﾃ｣ﾆ槌津｣窶堋ｯ", "IPAMonaPGothic", "Monapo", "sans-serif"!important;
 	background-size: 100% 100%;
 	text-shadow: 1px 1px 2px black;
